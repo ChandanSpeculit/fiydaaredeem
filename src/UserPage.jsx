@@ -19,7 +19,7 @@ const UserPage = () => {
 
   return (
     <div className="user-page-container">
-      <h1 style={{fontSize:'50px', fontStyle:'oblique'}}>Congratulations {userId}!</h1>
+      <h1 style={{fontSize:'50px', fontStyle:'oblique'}}>Congratulations</h1>
       <h2 style={{fontSize:'30px' ,fontStyle:'oblique'}}>You will get your digital gold within 24 hours.</h2>
       <h3 style={{fontSize:'25px',fontStyle:'oblique'}}>Please, Don't forget to LOGIN to our App</h3>
     </div>
