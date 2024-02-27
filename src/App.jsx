@@ -9,7 +9,7 @@ const App = () => {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
         <div style={{ textAlign: 'center' }}>
           <img src={logo} alt="Logo" style={{ width: '100px', height: 'auto' }} />
-          <h1>Welcome</h1>
+          <h1 style={{fontSize:'40px'}}>Welcome</h1>
         </div>
         <Routes>
           <Route path="/user/:userId" element={<UserPage />} />
